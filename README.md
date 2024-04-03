@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a href="https://allbiiiz.com">
+  <h1 align="center">Influence</h1>
+</a>
 
-## Getting Started
+<br/>
 
-First, run the development server:
+<div align="center">
+  <a href="https://paypal.me/nazimboudeffa">
+    <img src="./public/donations/paypal_logo.svg">
+  </a>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Introduction
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+CoolUI is an open-source list of components based on TailWind.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Documentation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The doc is available on https://nazimboudeffa.gumroad.com
 
-## Learn More
+## Donations
 
-To learn more about Next.js, take a look at the following resources:
+This software is free 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+But you can make a donation by clicking on the PayPal logo or follow https://paypal.me/nazimboudeffa
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Please note that your donation is not an engagement of any of the parts, you are free, we are free, and we love free softwares
 
-## Deploy on Vercel
+## Support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can join our little server on Discord just dm me on LinkedIn and I send you the link as we don't want trolls
