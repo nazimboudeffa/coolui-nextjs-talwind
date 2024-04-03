@@ -1,5 +1,5 @@
 <a href="https://allbiiiz.com">
-  <h1 align="center">Influence</h1>
+  <h1 align="center">CoolUI</h1>
 </a>
 
 <br/>
