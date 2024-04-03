@@ -139,6 +139,19 @@ export default function Home() {
         </li>
     </ul>
     </div>
+    <footer>
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+            <div className="flex items-center justify-between">
+                <div className="flex text-gray-500">
+                    <p>Crafted with <span className="text-red-500">❤</span> on <a href="https://github.com/nazimboudeffa/ui-cool-nextjs-talwind"><u>GitHub</u></a></p> 
+                </div>
+                
+                <div className="flex text-gray-500">
+                    <p>&copy; 2024 ACME</p>
+                </div>
+            </div>
+        </div>
+    </footer>
    </>
   );
 }
