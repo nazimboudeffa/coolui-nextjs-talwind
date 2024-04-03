@@ -8,10 +8,10 @@ export default function Home() {
         <h1
             className={`text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl Montsrrat`}
         >
-            Welcome to the CoolUI
+            Welcome to CoolUI
         </h1>
         <p className="max-w-[500px] text-lg text-muted-foreground sm:text-xl">
-            Explore the CoolUI components and start building your next project.
+            Explore some TailWind components and start building your next project.
         </p>
     </div>
     <div className="mx-auto max-w-screen-xl px-4 pb-8 lg:pb-12 space-y-8">
