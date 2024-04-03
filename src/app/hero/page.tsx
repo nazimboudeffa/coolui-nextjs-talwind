@@ -13,7 +13,7 @@ export default function Hero() {
         objectPosition="center"
       />
       <Link className="absolute mt-10 px-20 py-5 bg-green-500 text-white rounded-lg hover:bg-green-600"
-        href="https://github.com/nazimboudeffa/ui-cool-nextjs-tailwind"
+        href="https://github.com/nazimboudeffa/ui-cool-nextjs-talwind"
       >
         Start !
       </Link>
