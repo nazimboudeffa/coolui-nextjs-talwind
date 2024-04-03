@@ -45,7 +45,7 @@ export default function Home() {
                   </span>
                 </div>
 
-                <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Hero</h2>
+                <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Component</h2>
 
                 <p className="mt-1 text-sm text-gray-700">TODO</p>
               </div>
@@ -62,7 +62,7 @@ export default function Home() {
                   </span>
                 </div>
 
-                <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Hero</h2>
+                <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Component</h2>
 
                 <p className="mt-1 text-sm text-gray-700">TODO</p>
               </div>
@@ -79,7 +79,7 @@ export default function Home() {
                   </span>
                 </div>
 
-                <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Hero</h2>
+                <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Component</h2>
 
                 <p className="mt-1 text-sm text-gray-700">TODO</p>
               </div>
@@ -96,7 +96,7 @@ export default function Home() {
                   </span>
                 </div>
 
-                <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Hero</h2>
+                <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Component</h2>
 
                 <p className="mt-1 text-sm text-gray-700">TODO</p>
               </div>
@@ -113,7 +113,7 @@ export default function Home() {
                   </span>
                 </div>
 
-                <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Hero</h2>
+                <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Component</h2>
 
                 <p className="mt-1 text-sm text-gray-700">TODO</p>
               </div>
@@ -130,7 +130,7 @@ export default function Home() {
                   </span>
                 </div>
 
-                <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Hero</h2>
+                <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Component</h2>
 
                 <p className="mt-1 text-sm text-gray-700">TODO</p>
               </div>
