@@ -19,7 +19,7 @@ export default function Home() {
         <Link href="/hero">
           <li key="1">
             <div className="relative block h-full bg-white">
-              <div className="rounded-md h-full border-2 border-gray-900 bg-white">
+              <div className="rounded-md h-full border-2 border-gray-900 bg-white transition hover:-translate-y-2">
                 <div className="p-4 sm:p-6">
                   <div className="flex items-start justify-between">
                     <span aria-hidden="true" role="img" className="text-lg sm:text-xl">
