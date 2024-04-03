@@ -14,6 +14,8 @@
 
 CoolUI is an open-source list of components based on TailWind.
 
+It's mainly inspired from [HyperUI](https://www.hyperui.dev) the excellent UI library made by [Mark Mead](https://github.com/markmead)
+
 ## Documentation
 
 The doc is available on https://nazimboudeffa.gumroad.com
