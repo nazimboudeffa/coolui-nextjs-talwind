@@ -2,6 +2,74 @@ import { Montserrat } from "next/font/google"
 import Link from "next/link";
 
 export default function Home() {
+  const examples = [
+    {
+      key: "0",
+      title: "Hero",
+      description: "Static",
+      href: "/hero",
+    },
+    {
+      key: "1",
+      title: "ToS",
+      description: "Animated",
+      href: "/tos",
+    },
+    {
+      key: "2",
+      title: "Display when in Viewport",
+      description: "Animated",
+      href: "/reveal"
+    },
+    {
+      key: "3",
+      title: "Component",
+      description: "TODO",
+      href: "#",
+    },
+    {
+      key : "4",
+      title: "Component",
+      description: "TODO",
+      href: "#",
+    },
+    {
+      key : "5",
+      title: "Component",
+      description: "TODO",
+      href: "#",
+    },
+    {
+      key : "6",
+      title: "Component",
+      description: "TODO",
+      href: "#",
+    },
+    {
+      key : "7",
+      title: "Component",
+      description: "TODO",
+      href: "#",
+    },
+    {
+      key : "8",
+      title: "Component",
+      description: "TODO",
+      href: "#",
+    },
+    {
+      key : "9",
+      title: "Component",
+      description: "TODO",
+      href: "#",
+    },
+    {
+      key : "10",
+      title: "Component",
+      description: "TODO",
+      href: "#",
+    }
+  ]
   return (
     <div className="flex flex-col justify-between min-h-screen">
     <header className="flex flex-col items-center gap-10 text-center mt-10 mb-10">
@@ -16,131 +84,16 @@ export default function Home() {
     </header>
     <main className="mx-auto max-w-screen-xl px-4 pb-8 lg:pb-12 space-y-8">
       <ul className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
-        <Link href="/hero">
-          <li key="1">
-            <div className="relative block h-full bg-white">
-              <div className="rounded-md h-full border-2 border-gray-900 bg-white transition hover:-translate-y-2">
-                <div className="p-4 sm:p-6">
-                  <div className="flex items-start justify-between">
-                    <span aria-hidden="true" role="img" className="text-lg sm:text-xl">
-                      📣
-                    </span>
-                  </div>
-
-                  <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Hero</h2>
-
-                  <p className="mt-1 text-sm text-gray-700">Static</p>
-                </div>
+        {examples.map((example) => (      
+          <li key={example.key} className="flex flex-col">
+            <Link href={example.href}>
+              <div className="flex flex-col items-center justify-between p-4 border border-gray-200 rounded-lg transition-transform transform hover:scale-105 w-64 h-32">
+                <h3 className="text-xl font-semibold text-center">{example.title}</h3>
+                <p className="text-sm text-gray-500">{example.description}</p>
               </div>
-            </div>
+            </Link>
           </li>
-        </Link>
-        <Link href="/tos">
-          <li key="2">
-            <div className="group relative block h-full">
-              <div className="rounded-md h-full border-2 border-gray-900 bg-white transition hover:-translate-y-2">
-                <div className="p-4 sm:p-6">
-                  <div className="flex items-start justify-between">
-                    <span aria-hidden="true" role="img" className="text-lg sm:text-xl">
-                      📣
-                    </span>
-                  </div>
-
-                  <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">ToS</h2>
-
-                  <p className="mt-1 text-sm text-gray-700">Animated</p>
-                </div>
-              </div>
-            </div>
-          </li>
-        </Link>
-        <Link href="/reveal">
-          <li key="3">
-            <div className="group relative block h-full bg-white">
-              <div className="rounded-md h-full border-2 border-gray-900 bg-white">
-                <div className="p-4 sm:p-6">
-                  <div className="flex items-start justify-between">
-                    <span aria-hidden="true" role="img" className="text-lg sm:text-xl">
-                    📣
-                    </span>
-                  </div>
-
-                  <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Display when in ViewPort</h2>
-
-                  <p className="mt-1 text-sm text-gray-700">Animation</p>
-                </div>
-              </div>
-            </div>
-          </li>
-        </Link>
-          <li key="4">
-            <div className="group relative block h-full bg-white">
-              <div className="rounded-md h-full border-2 border-gray-900 bg-white">
-                <div className="p-4 sm:p-6">
-                  <div className="flex items-start justify-between">
-                    <span aria-hidden="true" role="img" className="text-lg sm:text-xl">
-                      🥲
-                    </span>
-                  </div>
-
-                  <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Component</h2>
-
-                  <p className="mt-1 text-sm text-gray-700">TODO</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li key="5">
-            <div className="group relative block h-full bg-white">
-              <div className="rounded-md h-full border-2 border-gray-900 bg-white">
-                <div className="p-4 sm:p-6">
-                  <div className="flex items-start justify-between">
-                    <span aria-hidden="true" role="img" className="text-lg sm:text-xl">
-                      🥲
-                    </span>
-                  </div>
-
-                  <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Component</h2>
-
-                  <p className="mt-1 text-sm text-gray-700">TODO</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li key="6">
-            <div className="group relative block h-full bg-white">
-              <div className="rounded-md h-full border-2 border-gray-900 bg-white">
-                <div className="p-4 sm:p-6">
-                  <div className="flex items-start justify-between">
-                    <span aria-hidden="true" role="img" className="text-lg sm:text-xl">
-                      🥲
-                    </span>
-                  </div>
-
-                  <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Component</h2>
-
-                  <p className="mt-1 text-sm text-gray-700">TODO</p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li key="7">
-            <div className="group relative block h-full bg-white">
-              <div className="rounded-md h-full border-2 border-gray-900 bg-white">
-                <div className="p-4 sm:p-6">
-                  <div className="flex items-start justify-between">
-                    <span aria-hidden="true" role="img" className="text-lg sm:text-xl">
-                      🥲
-                    </span>
-                  </div>
-
-                  <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Component</h2>
-
-                  <p className="mt-1 text-sm text-gray-700">TODO</p>
-                </div>
-              </div>
-            </div>
-          </li>
+        ))}
       </ul>
     </main>
     <footer>
