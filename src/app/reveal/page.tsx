@@ -13,6 +13,7 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
             }}
+            className="mb-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -27,6 +28,7 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
             }}
+            className="mb-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -41,6 +43,7 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
             }}
+            className="mb-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -55,6 +58,7 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
             }}
+            className="mb-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -69,6 +73,7 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
             }}
+            className="mb-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -83,6 +88,7 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
             }}
+            className="mb-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -97,6 +103,7 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
             }}
+            className="mb-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -111,6 +118,7 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
             }}
+            className="mb-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -125,6 +133,7 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
             }}
+            className="mb-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -139,6 +148,7 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
             }}
+            className="mb-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -153,6 +163,7 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
             }}
+            className="mb-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -167,6 +178,7 @@ export default function Hero() {
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
             }}
+            className="mb-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
