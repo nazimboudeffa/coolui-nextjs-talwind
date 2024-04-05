@@ -54,23 +54,25 @@ export default function Home() {
             </div>
           </li>
         </Link>
+        <Link href="/reveal">
           <li key="3">
             <div className="group relative block h-full bg-white">
               <div className="rounded-md h-full border-2 border-gray-900 bg-white">
                 <div className="p-4 sm:p-6">
                   <div className="flex items-start justify-between">
                     <span aria-hidden="true" role="img" className="text-lg sm:text-xl">
-                      🥲
+                    📣
                     </span>
                   </div>
 
-                  <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Component</h2>
+                  <h2 className="mt-4 font-medium text-gray-900 sm:text-lg">Display when in ViewPort</h2>
 
-                  <p className="mt-1 text-sm text-gray-700">TODO</p>
+                  <p className="mt-1 text-sm text-gray-700">Animation</p>
                 </div>
               </div>
             </div>
           </li>
+        </Link>
           <li key="4">
             <div className="group relative block h-full bg-white">
               <div className="rounded-md h-full border-2 border-gray-900 bg-white">
