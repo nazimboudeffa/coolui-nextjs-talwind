@@ -135,8 +135,8 @@ export default function Hero() {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
             variants={{
-                hidden: { opacity: 0, y: 100 },
-                visible: { opacity: 1, y: 0 }
+                hidden: { opacity: 0, y: 100, rotate: 0 },
+                visible: { opacity: 1, y: 0, rotate: -10 }
             }}
             className="m-3"
         >
@@ -150,8 +150,8 @@ export default function Hero() {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
             variants={{
-                hidden: { opacity: 0, y: 100 },
-                visible: { opacity: 1, y: 0 }
+                hidden: { opacity: 0, y: 100, rotate: 0 },
+                visible: { opacity: 1, y: 0, rotate: -10 }
             }}
             className="m-3"
         >
@@ -165,8 +165,8 @@ export default function Hero() {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
             variants={{
-                hidden: { opacity: 0, y: 100 },
-                visible: { opacity: 1, y: 0 }
+                hidden: { opacity: 0, y: 100, rotate: 0 },
+                visible: { opacity: 1, y: 0, rotate: -10 }
             }}
             className="m-3"
         >
@@ -180,8 +180,8 @@ export default function Hero() {
             viewport={{ once: true }}
             transition={{ duration: 1 }}
             variants={{
-                hidden: { opacity: 0, y: 100 },
-                visible: { opacity: 1, y: 0 }
+                hidden: { opacity: 0, y: 100, rotate: 0 },
+                visible: { opacity: 1, y: 0, rotate: -10 }
             }}
             className="m-3"
         >
