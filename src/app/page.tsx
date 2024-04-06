@@ -17,9 +17,9 @@ export default function Home() {
     },
     {
       key: "2",
-      title: "Display when in Viewport",
+      title: "Display on scroll",
       description: "Animated",
-      href: "/reveal"
+      href: "/display-on-scroll"
     },
     {
       key: "3",
