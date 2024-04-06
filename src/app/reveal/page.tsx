@@ -86,7 +86,7 @@ export default function Hero() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 2 }}
             variants={{
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
@@ -101,7 +101,7 @@ export default function Hero() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 3 }}
             variants={{
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
@@ -116,7 +116,7 @@ export default function Hero() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 4 }}
             variants={{
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
@@ -148,7 +148,7 @@ export default function Hero() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 2 }}
             variants={{
                 hidden: { opacity: 0, y: 100, rotate: 0 },
                 visible: { opacity: 1, y: 0, rotate: -10 }
@@ -163,7 +163,7 @@ export default function Hero() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 3 }}
             variants={{
                 hidden: { opacity: 0, y: 100, rotate: 0 },
                 visible: { opacity: 1, y: 0, rotate: -10 }
@@ -178,7 +178,7 @@ export default function Hero() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 4 }}
             variants={{
                 hidden: { opacity: 0, y: 100, rotate: 0 },
                 visible: { opacity: 1, y: 0, rotate: -10 }
@@ -190,17 +190,17 @@ export default function Hero() {
             </div>
         </motion.div>
     </div>
-    <div className="flex flex-col items-center justify-between">
+    <div className="flex flex-wrap items-center justify-center">
     <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             transition={{ duration: 1 }}
             variants={{
-                hidden: { opacity: 0, y: 100 },
-                visible: { opacity: 1, y: 0 }
+                hidden: { y: 100 },
+                visible: { y: 0 }
             }}
-            className="mb-3"
+            className="m-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -210,12 +210,12 @@ export default function Hero() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 2 }}
             variants={{
-                hidden: { opacity: 0, y: 100 },
-                visible: { opacity: 1, y: 0 }
+                hidden: { y: 100 },
+                visible: { y: 0 }
             }}
-            className="mb-3"
+            className="m-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -225,12 +225,12 @@ export default function Hero() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 3 }}
             variants={{
-                hidden: { opacity: 0, y: 100 },
-                visible: { opacity: 1, y: 0 }
+                hidden: { y: 100 },
+                visible: { y: 0 }
             }}
-            className="mb-3"
+            className="m-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
@@ -240,17 +240,19 @@ export default function Hero() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 4 }}
             variants={{
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
             }}
-            className="mb-3"
+            className="m-3"
         >
             <div className="flex items-center justify-center rounded-md border-2 border-gray-900 bg-blue-500 w-64 h-64">
                 BOX
             </div>
         </motion.div>
+    </div>
+    <div className="flex flex-col items-center justify-between">
         <motion.div
             initial="hidden"
             whileInView="visible"
