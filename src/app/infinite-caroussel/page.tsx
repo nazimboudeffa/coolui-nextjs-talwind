@@ -18,7 +18,7 @@ export default function Page() {
     ]
 
     return (
-        <main className="mt-5">
+        <main className="mt-5 overflow-x-hidden">
             <motion.div 
                 className="flex gap-4"
                 animate={{
