@@ -23,9 +23,9 @@ export default function Home() {
     },
     {
       key: "3",
-      title: "Component",
-      description: "TODO",
-      href: "#",
+      title: "Infinite caroussel scroll",
+      description: "Animated",
+      href: "/infinite-caroussel",
     },
     {
       key : "4",
